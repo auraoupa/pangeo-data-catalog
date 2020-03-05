@@ -13,7 +13,7 @@ sources:
         - model
     driver: zarr
     args:
-      urlpath: 'gcs://pangeo-data/eNATL60-I/
+      urlpath: 'gcs://pangeo-data/eNATL60-I/'
       storage_options:
         token: anon
       consolidated: True
