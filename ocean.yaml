@@ -1,7 +1,7 @@
-GFDL_CM2_6:
+  MEOM-NEMO:
     args:
-      path: "{{CATALOG_DIR}}/ocean/GFDL_CM2.6.yaml"
-    description: 'GFDL CM2.6 Climate Model Ocean Fields'
+      path: "{{CATALOG_DIR}}/ocean/MEOM-NEMO.yaml"
+    description: 'NEMO North Atlantic Ocean Model simulations produced at MEOM'
     driver: intake.catalog.local.YAMLFileCatalog
     metadata: {}
 
